@@ -43,7 +43,7 @@ body {
   background-size: 400% 400%;
 }
 
-/*.otherstuff {
+.otherstuff {
   position: absolute;
   bottom: -2px;
   left: 10px;
@@ -53,11 +53,11 @@ body {
   color: #444;
   font-size: 20px;
   text-decoration: none;
- 	font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed';
   opacity: .25;
 }
 
-span {position: relative;
+/*span {position: relative;
     top: -3px;
     left: 5px;
     color: #fff;
