@@ -239,12 +239,24 @@ button {
   animation: glow1 .2s linear infinite;
 }
 
-/*@keyframes glow {
-0% {background: #000; color: #000;}
-75% {background: #fff; color: #444;}
-100% {background: #000; color: #000;}
+@keyframes glow {
+  0% {
+    background: #000;
+    color: #000;
+  }
+
+  75% {
+    background: #fff;
+    color: #444;
+  }
+
+  100% {
+    background: #000;
+    color: #000;
+  }
 }
-@keyframes glow1 {
+
+/*@keyframes glow1 {
 0% {background: #000; color: white;}
 50% {background: #fff; color: white;}
 100% {background: #000; color: white;}
