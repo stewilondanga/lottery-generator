@@ -152,8 +152,12 @@ h1:after {
   background: radial-gradient(circle closest-side, #8f8, #282);
 }
 
-/*.ball2 {animation-delay: 1s;  background: radial-gradient(circle closest-side, #ff8, #880);}
-.ball3 {animation-delay: 1.5s;  background: radial-gradient(circle closest-side, #aaf, #44c);}
+.ball2 {
+  animation-delay: 1s;
+  background: radial-gradient(circle closest-side, #ff8, #880);
+}
+
+/*.ball3 {animation-delay: 1.5s;  background: radial-gradient(circle closest-side, #aaf, #44c);}
 .ball4 {animation-delay: 2s;  background: radial-gradient(circle closest-side, #daf, #80f);}
 .ball5 {animation-delay: 2.5s;  background: radial-gradient(circle closest-side, #F4A460, #841);}
 
