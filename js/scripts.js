@@ -30,25 +30,26 @@ $(document).ready(function() {
       for (i = 0; i < highestNum; i++) {
         balls[i] = i + 1;
       };
+
+      // pick out a ball from the bag and remove that ball number from the remaining bag of balls / avoid any possibility of duplicates //
+
+      var myResults = [];
+      for (j = 0; j < numberOfBalls; j++) {
+        var selector = (Math.floor(Math.random() * balls.length));
+        myResults[j] = balls[selector];
+        balls.splice(selector, 1);
+      };
       /*
-                  	// pick out a ball from the bag and remove that ball number from the remaining bag of balls / avoid any possibility of duplicates //
+                        	// sort ball numbers into ascending order //
 
-                  	var myResults = [];
-                  	for (j = 0; j < numberOfBalls; j++) {
-                  		var selector = (Math.floor(Math.random() * balls.length));
-                  		myResults[j] = balls[selector];
-                  		balls.splice(selector, 1);
-                  };
-                  	// sort ball numbers into ascending order //
+                          for (j = 0; j < numberOfBalls; j++) {
+                        	for (i = 0; i < numberOfBalls; i++) {
+                        		var cbone = myResults[i];
+                        		var cbtwo = myResults[i + 1];
+                        		if (cbone > cbtwo) {myResults[i+1] = cbone; myResults[i] = cbtwo;}
+                        };};
 
-                    for (j = 0; j < numberOfBalls; j++) {
-                  	for (i = 0; i < numberOfBalls; i++) {
-                  		var cbone = myResults[i];
-                  		var cbtwo = myResults[i + 1];
-                  		if (cbone > cbtwo) {myResults[i+1] = cbone; myResults[i] = cbtwo;}
-                  };};
-
-                    /* Add the picked out numbers to the DIV balls */
+                          /* Add the picked out numbers to the DIV balls */
       /*
       for (i = 0; i < numberOfBalls; i++) {
         var lottonum = myResults[i];
