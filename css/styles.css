@@ -172,23 +172,23 @@ h1:after {
   background: radial-gradient(circle closest-side, #F4A460, #841);
 }
 
-/*.ball0:after, .ball1:after, .ball2:after, .ball3:after, .ball4:after, .ball5:after {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	width: 40px;
-	height: 40px;
-	background: white;
-	display: block;
-	border-radius: 50%;
-	content: '';
-	color: black;
-	mix-blend-mode: overlay;
-	text-shadow: 0 0 2px #333;
-	font-size: 24px;
+.ball0:after, .ball1:after, .ball2:after, .ball3:after, .ball4:after, .ball5:after {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  display: block;
+  border-radius: 50%;
+  content: '';
+  color: black;
+  mix-blend-mode: overlay;
+  text-shadow: 0 0 2px #333;
+  font-size: 24px;
 }
 
-@keyframes swish {
+/*@keyframes swish {
 	0% {opacity: 0; transform: translateX(300px) rotateZ(360deg);}
 	100% {opacity: 1; transform: translateX(0) rotateZ(0deg);}
 }
