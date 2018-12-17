@@ -105,9 +105,9 @@ h1 {
   text-shadow: 2px 2px 2px #000;
 }
 
-/*
-h1:after {      /* styled underlining */
-/*display: block;
+h1:after {
+  /* styled underlining */
+  /*display: block;
 	width: 400px;
 	position: relative;
 	top: 3px;
