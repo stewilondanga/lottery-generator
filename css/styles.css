@@ -70,16 +70,33 @@ span {
   transition: color .2s linear, opacity .2s linear;
 }
 
-/*@keyframes myb {
-	0% {background-position: 50% 50%;}
-	20% {background-position: 50% 30%;}
-	40% {background-position: 75% 50%;}
-	60% {background-position: 75% 30%;}
-	80% {background-position: 30% 60%;}
-	100% {background-position: 50% 50%;}
+@keyframes myb {
+  0% {
+    background-position: 50% 50%;
+  }
+
+  20% {
+    background-position: 50% 30%;
+  }
+
+  40% {
+    background-position: 75% 50%;
+  }
+
+  60% {
+    background-position: 75% 30%;
+  }
+
+  80% {
+    background-position: 30% 60%;
+  }
+
+  100% {
+    background-position: 50% 50%;
+  }
 }
 
-h1 {text-align: center;
+/*h1 {text-align: center;
 	font-size: 50px;
 	position: relative;
 	top: -15px;
