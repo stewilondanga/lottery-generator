@@ -167,9 +167,12 @@ h1:after {
   background: radial-gradient(circle closest-side, #daf, #80f);
 }
 
-/*.ball5 {animation-delay: 2.5s;  background: radial-gradient(circle closest-side, #F4A460, #841);}
+.ball5 {
+  animation-delay: 2.5s;
+  background: radial-gradient(circle closest-side, #F4A460, #841);
+}
 
-.ball0:after, .ball1:after, .ball2:after, .ball3:after, .ball4:after, .ball5:after {
+/*.ball0:after, .ball1:after, .ball2:after, .ball3:after, .ball4:after, .ball5:after {
 	position: absolute;
 	top: 20px;
 	left: 20px;
