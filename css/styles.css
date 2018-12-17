@@ -286,12 +286,17 @@ button {
   animation: good .3s infinite;
 }
 
-/*@keyframes good {
-  0% {text-shadow: 0 0 0 transparent;}
-  50% {text-shadow: 0 0 40px #fff;}
+@keyframes good {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+
+  50% {
+    text-shadow: 0 0 40px #fff;
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
