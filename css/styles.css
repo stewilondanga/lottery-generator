@@ -64,10 +64,13 @@ span {
   color: #fff;
 }
 
-/*.otherstuff:hover {color: #fff; opacity: .75;
-  transition: color .2s linear, opacity .2s linear;}
+.otherstuff:hover {
+  color: #fff;
+  opacity: .75;
+  transition: color .2s linear, opacity .2s linear;
+}
 
-@keyframes myb {
+/*@keyframes myb {
 	0% {background-position: 50% 50%;}
 	20% {background-position: 50% 30%;}
 	40% {background-position: 75% 50%;}
