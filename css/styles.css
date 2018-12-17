@@ -107,17 +107,18 @@ h1 {
 
 h1:after {
   /* styled underlining */
-  /*display: block;
-	width: 400px;
-	position: relative;
-	top: 3px;
-	left: 150px;
-	height: 2px;
-	background: white;
+  display: block;
+  width: 400px;
+  position: relative;
+  top: 3px;
+  left: 150px;
+  height: 2px;
+  background: white;
   box-shadow: 2px 2px 2px 0 #000;
-	content: '';
+  content: '';
 }
 
+/*
 .ballcontainer {
 	width: 630px;
 	height: 150px;
