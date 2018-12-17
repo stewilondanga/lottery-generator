@@ -39,17 +39,21 @@ $(document).ready(function() {
         myResults[j] = balls[selector];
         balls.splice(selector, 1);
       };
-      /*
-                        	// sort ball numbers into ascending order //
 
-                          for (j = 0; j < numberOfBalls; j++) {
-                        	for (i = 0; i < numberOfBalls; i++) {
-                        		var cbone = myResults[i];
-                        		var cbtwo = myResults[i + 1];
-                        		if (cbone > cbtwo) {myResults[i+1] = cbone; myResults[i] = cbtwo;}
-                        };};
+      // sort ball numbers into ascending order //
 
-                          /* Add the picked out numbers to the DIV balls */
+      for (j = 0; j < numberOfBalls; j++) {
+        for (i = 0; i < numberOfBalls; i++) {
+          var cbone = myResults[i];
+          var cbtwo = myResults[i + 1];
+          if (cbone > cbtwo) {
+            myResults[i + 1] = cbone;
+            myResults[i] = cbtwo;
+          }
+        };
+      };
+
+      /* Add the picked out numbers to the DIV balls */
       /*
       for (i = 0; i < numberOfBalls; i++) {
         var lottonum = myResults[i];
