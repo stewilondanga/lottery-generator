@@ -200,19 +200,19 @@ h1:after {
   }
 }
 
-/*button {
-    display: none;
-    border-radius: 10px;
-		box-shadow: 0px 0px 15px 0px #000;
-		border: 1px outset #666;
-		font-weight: bold;
-		letter-spacing: 1px;
-		color: black;
-		font-size: 30px;
-		text-shadow: 0 0 1px #000;
+button {
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px #000;
+  border: 1px outset #666;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 30px;
+  text-shadow: 0 0 1px #000;
 }
 
-.glow {
+/*.glow {
 	position: absolute;
   background: white;
 	top: 85%;
