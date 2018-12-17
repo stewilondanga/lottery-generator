@@ -1,12 +1,12 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
-
+/*
 $(document).ready(function() {
 
   var numberOfBalls = 6; // Number of balls to come out
@@ -49,9 +49,9 @@ $(document).ready(function() {
 };};
 
   /* Add the picked out numbers to the DIV balls */
-
-  for (i = 0; i < numberOfBalls; i++) {
-	 var lottonum =	myResults[i];
-	 $('div.ball' + i).text(lottonum);
+/*
+for (i = 0; i < numberOfBalls; i++) {
+  var lottonum = myResults[i];
+  $('div.ball' + i).text(lottonum);
 };
 });
