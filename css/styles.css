@@ -273,19 +273,20 @@ button {
   }
 }
 
-/*.goodluck {display: none;
-    position: absolute;
-    bottom: 15px;
-    text-align: center;
-    color: white;
-    width: 100%;
-    font-size: 50px;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;
-    animation: good .3s infinite;
+.goodluck {
+  display: none;
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+  animation: good .3s infinite;
 }
 
-@keyframes good {
+/*@keyframes good {
   0% {text-shadow: 0 0 0 transparent;}
   50% {text-shadow: 0 0 40px #fff;}
 }
