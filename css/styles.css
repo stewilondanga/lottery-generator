@@ -256,13 +256,24 @@ button {
   }
 }
 
-/*@keyframes glow1 {
-0% {background: #000; color: white;}
-50% {background: #fff; color: white;}
-100% {background: #000; color: white;}
+@keyframes glow1 {
+  0% {
+    background: #000;
+    color: white;
+  }
+
+  50% {
+    background: #fff;
+    color: white;
+  }
+
+  100% {
+    background: #000;
+    color: white;
+  }
 }
 
-.goodluck {display: none;
+/*.goodluck {display: none;
     position: absolute;
     bottom: 15px;
     text-align: center;
