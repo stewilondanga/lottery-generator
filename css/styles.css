@@ -143,9 +143,11 @@ h1:after {
   box-shadow: 2px 2px 5px 0px #000, 0 0 10px 1px #444;
 }
 
-/*
-.addanimation {animation: swish .6s linear forwards;}
+.addanimation {
+  animation: swish .6s linear forwards;
+}
 
+/*
 .ball1 {animation-delay: .5s;  background: radial-gradient(circle closest-side, #8f8, #282);}
 .ball2 {animation-delay: 1s;  background: radial-gradient(circle closest-side, #ff8, #880);}
 .ball3 {animation-delay: 1.5s;  background: radial-gradient(circle closest-side, #aaf, #44c);}
