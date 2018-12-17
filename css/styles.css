@@ -57,13 +57,14 @@ body {
   opacity: .25;
 }
 
-/*span {position: relative;
-    top: -3px;
-    left: 5px;
-    color: #fff;
+span {
+  position: relative;
+  top: -3px;
+  left: 5px;
+  color: #fff;
 }
 
-.otherstuff:hover {color: #fff; opacity: .75;
+/*.otherstuff:hover {color: #fff; opacity: .75;
   transition: color .2s linear, opacity .2s linear;}
 
 @keyframes myb {
