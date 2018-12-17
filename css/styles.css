@@ -126,24 +126,24 @@ h1:after {
   overflow: hidden;
 }
 
-/*
 .ball0, .ball1, .ball2, .ball3, .ball4, .ball5 {
-	opacity: 0;
-	display: inline-block;
-	margin: 27px 0 0 20px;
-	text-align: center;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	background: radial-gradient(circle closest-side, #faa, #800);
-	border-radius: 50%;
-	color: black;
-	text-shadow: 0 0 2px #333;
-	font-size: 24px;
-	content: "";
-	box-shadow: 2px 2px 5px 0px #000, 0 0 10px 1px #444;
+  opacity: 0;
+  display: inline-block;
+  margin: 27px 0 0 20px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: radial-gradient(circle closest-side, #faa, #800);
+  border-radius: 50%;
+  color: black;
+  text-shadow: 0 0 2px #333;
+  font-size: 24px;
+  content: "";
+  box-shadow: 2px 2px 5px 0px #000, 0 0 10px 1px #444;
 }
 
+/*
 .addanimation {animation: swish .6s linear forwards;}
 
 .ball1 {animation-delay: .5s;  background: radial-gradient(circle closest-side, #8f8, #282);}
