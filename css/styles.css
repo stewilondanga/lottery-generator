@@ -118,15 +118,15 @@ h1:after {
   content: '';
 }
 
-/*
 .ballcontainer {
-	width: 630px;
-	height: 150px;
-	margin-left: 30px;
-	margin-top: -30px;
-	overflow: hidden;
+  width: 630px;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: -30px;
+  overflow: hidden;
 }
 
+/*
 .ball0, .ball1, .ball2, .ball3, .ball4, .ball5 {
 	opacity: 0;
 	display: inline-block;
